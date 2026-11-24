@@ -1,0 +1,12 @@
+.primary {
+  background: #61dafb;
+  color: #111;
+  border: none;
+  font-weight: bold;
+}
+
+.danger {
+  background: #ff6b6b;
+  color: #111;
+  border: none;
+}

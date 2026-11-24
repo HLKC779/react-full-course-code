@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  font-size: 20px;
+  background: #1b1b1f;
+  color: #f0f0f0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background: #2b2b33;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  margin: 4px;
+}
+
+button:hover {
+  border-color: #61dafb;
+}
+
+.panel,
+.card {
+  background: #25252b;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.important {
+  color: #ffd166;
+  font-weight: bold;
+}
+
+body.light {
+  background: #f4f4f7;
+  color: #1b1b1f;
+}
+
+body.light .panel,
+body.light .card,
+body.light button,
+body.light input {
+  background: #ffffff;
+}
+
+a {
+  color: #61dafb;
+  margin-right: 16px;
+}
+
+a.active {
+  font-weight: bold;
+  text-decoration: none;
+}

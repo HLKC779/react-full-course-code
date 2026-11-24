@@ -1,0 +1,19 @@
+function TaskItem({ task, onToggle, onDelete }) {
+  return (
+    <li className={task.done ? 'task done' : 'task'}>
+      <label>
+        <input
+          type="checkbox"
+          checked={task.done}
+          onChange={() => onToggle(task.id)}
+        />
+        {task.title}
+      </label>
+      <button className="delete" onClick={() => onDelete(task.id)}>
+        Delete
+      </button>
+    </li>
+  )
+}
+
+export default TaskItem
